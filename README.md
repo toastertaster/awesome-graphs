@@ -38,6 +38,7 @@ Xiaojin Zhu. Persistent homology: An introduction and a new text representation 
 ## topological data analysis
 
 [tda.md notes][tda.md]
+
 [wikipedia topological data analysis][wikitda]
 
 [tda.md]: https://gist.github.com/turnersr/8668521
@@ -48,8 +49,11 @@ Xiaojin Zhu. Persistent homology: An introduction and a new text representation 
 These software components implement graphs for GPUs
 
 [cuStinger][cuStinger] dynamic graph representation for GPUs
+
 [gunrock][gunrock] high performance GPU primatives for static graph analytics
+
 [cub][nvlabscub] from NVlabs
+
 [moderngpu][moderngpu] GPU primatives
 
 [cuStinger]: https://github.com/cuStinger/cuStinger
