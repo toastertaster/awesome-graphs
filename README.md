@@ -1,11 +1,27 @@
-# graph-notes
-graph notes for consideration
+# Awesome graphs
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+
+A list of material for graph theory and implementation.
 
 # Journals
 
 [IEEE Transactions on Signal and Information Processing over Networks][ieeetsipn]
 
 [ieeetsipn]: http://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-and-information-processing-over-networks
+
+# Books
+
+[graph book][graphbook1] a recent text with a modern perspective
+
+[graph book][graphbook2] a historical reference
+
+[Matrix computations][matrixbook] Golub's reference
+
+[graphbook1]: http://math.tut.fi/~ruohonen/GT_English.pdf
+[graphbook2]: http://www.dtic.mil/dtic/tr/fulltext/u2/705364.pdf
+[matrixbook]: http://web.mit.edu/ehliu/Public/sclark/Golub%20G.H.,%20Van%20Loan%20C.F.-%20Matrix%20Computations.pdf
 
 ## persistent homology
 
@@ -22,25 +38,26 @@ Xiaojin Zhu. Persistent homology: An introduction and a new text representation 
 ## topological data analysis
 
 [tda.md notes][tda.md]
+[wikipedia topological data analysis][wikitda]
 
 [tda.md]: https://gist.github.com/turnersr/8668521
+[wikitda]:https://en.wikipedia.org/wiki/Topological_data_analysis
 
-## books
+# Software packages for GPUs
 
-[graph book][graphbook1]
+These software components implement graphs for GPUs
 
-[graph book][graphbook2]
-
-[graphbook1]: http://math.tut.fi/~ruohonen/GT_English.pdf
-[graphbook2]: http://www.dtic.mil/dtic/tr/fulltext/u2/705364.pdf
-
-## software packages
-
+[cuStinger][cuStinger] dynamic graph representation for GPUs
 [gunrock][gunrock] high performance GPU primatives for static graph analytics
+[cub][nvlabscub] from NVlabs
+[moderngpu][moderngpu] GPU primatives
 
+[cuStinger]: https://github.com/cuStinger/cuStinger
 [gunrock]: https://github.com/gunrock/gunrock
+[nvlabscub]: https://github.com/NVlabs/cub
+[moderngpu]: https://github.com/moderngpu/moderngpu
 
-
+# Software packages for graph stores
 
 
 
