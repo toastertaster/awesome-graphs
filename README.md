@@ -3,7 +3,9 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 
-A list of material for graph theory and implementation.
+A list of material for graph theory and software implementations.
+
+
 
 # Journals
 
@@ -48,7 +50,9 @@ Xiaojin Zhu. Persistent homology: An introduction and a new text representation 
 
 These software components implement graphs for GPUs
 
-[cuStinger][cuStinger] dynamic graph representation for GPUs
+[hornet][hornet] dynamic graph representation for GPUs
+
+[cuStinger][cuStinger] (depricated for hornet) dynamic graph representation for GPUs
 
 [gunrock][gunrock] high performance GPU primatives for static graph analytics
 
@@ -56,6 +60,7 @@ These software components implement graphs for GPUs
 
 [moderngpu][moderngpu] GPU primatives
 
+[hornet]: https://github.com/hornet-gt/hornet
 [cuStinger]: https://github.com/cuStinger/cuStinger
 [gunrock]: https://github.com/gunrock/gunrock
 [nvlabscub]: https://github.com/NVlabs/cub
@@ -63,6 +68,16 @@ These software components implement graphs for GPUs
 
 # Software packages for graph stores
 
+[Neo4j][Neo4j] Neo4j graph database
+[Giraph][Giraph] Apache Giraph
 
+[Neo4j]: https://neo4j.com/
+[Giraph]: https://giraph.apache.org/
 
+# Graph Data
 
+These are locations to download graph data for study
+
+[networkrepository][networkrepository] has graphs of all sizes and types
+
+[networkrepository]: http://networkrepository.com/
