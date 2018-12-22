@@ -5,27 +5,27 @@
 
 A list of material for graph theory and software implementations.
 
+# Theory
 
-
-# Journals
+## Journals
 
 [IEEE Transactions on Signal and Information Processing over Networks][ieeetsipn]
 
 [ieeetsipn]: http://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-and-information-processing-over-networks
 
-# Books
+## Books
 
-[graph book][graphbook1] a recent text with a modern perspective
+- [graph book][graphbook1] a recent text with a modern perspective
 
-[graph book][graphbook2] a historical reference
+- [graph book][graphbook2] a historical reference
 
-[Matrix computations][matrixbook] Golub's reference
+- [Matrix computations][matrixbook] Golub's reference
 
 [graphbook1]: http://math.tut.fi/~ruohonen/GT_English.pdf
 [graphbook2]: http://www.dtic.mil/dtic/tr/fulltext/u2/705364.pdf
 [matrixbook]: http://web.mit.edu/ehliu/Public/sclark/Golub%20G.H.,%20Van%20Loan%20C.F.-%20Matrix%20Computations.pdf
 
-## persistent homology
+## Persistent Homology
 
 Great introduction in the paper with background
 
@@ -37,47 +37,61 @@ Xiaojin Zhu. Persistent homology: An introduction and a new text representation 
 [homologyposter]: http://pages.cs.wisc.edu/~jerryzhu/pub/ijcai13posterZhu.pdf
 
 
-## topological data analysis
+## Topological Data Analysis
 
-[tda.md notes][tda.md]
+- [tda.md notes][tda.md] Another awesome-style listing
 
-[wikipedia topological data analysis][wikitda]
+- [wikipedia topological data analysis][wikitda]
 
 [tda.md]: https://gist.github.com/turnersr/8668521
 [wikitda]:https://en.wikipedia.org/wiki/Topological_data_analysis
 
-# Software packages for GPUs
+# Implementation 
+
+## Software packages for graph analysis
 
 These software components implement graphs for GPUs
 
-[hornet][hornet] dynamic graph representation for GPUs
+- [hornet][hornet] dynamic graph representation for GPUs (see their [paper][hornetpaper] for description)
 
-[cuStinger][cuStinger] (depricated for hornet) dynamic graph representation for GPUs
+- [Graph-tool][graphtool] python library
 
-[gunrock][gunrock] high performance GPU primatives for static graph analytics
+- [NetworkX][networkx] python library
 
-[cub][nvlabscub] from NVlabs
+- [GDA-Public][gdapublic] python library for TDA
 
-[moderngpu][moderngpu] GPU primatives
+- [gunrock][gunrock] high performance GPU primatives for static graph analysis
+
+- [cub][nvlabscub] from NVIDIA Labs
+
+- [moderngpu][moderngpu] GPU primatives
 
 [hornet]: https://github.com/hornet-gt/hornet
-[cuStinger]: https://github.com/cuStinger/cuStinger
+[hornetpaper]: https://www.researchgate.net/publication/327569751_Hornet_An_Efficient_Data_Structure_for_Dynamic_Sparse_Graphs_and_Matrices_on_GPUs
+[graphtool]: https://graph-tool.skewed.de/
+[networkx]: https://networkx.github.io/
+[gdapublic]: https://github.com/geomdata/gda-public
 [gunrock]: https://github.com/gunrock/gunrock
 [nvlabscub]: https://github.com/NVlabs/cub
 [moderngpu]: https://github.com/moderngpu/moderngpu
+[cuStinger]: https://github.com/cuStinger/cuStinger
 
-# Software packages for graph stores
+## Software packages for graph stores
 
-[Neo4j][Neo4j] Neo4j graph database
-[Giraph][Giraph] Apache Giraph
+- [Neo4j][Neo4j] Neo4j graph database
+
+- [Giraph][Giraph] Apache Giraph
 
 [Neo4j]: https://neo4j.com/
 [Giraph]: https://giraph.apache.org/
 
-# Graph Data
+# Graph Datasets
 
 These are locations to download graph data for study
 
-[networkrepository][networkrepository] has graphs of all sizes and types
+- [networkrepository][networkrepository] has graphs of all sizes and types
+
+- [Open Street Maps][osm] export city layout information
 
 [networkrepository]: http://networkrepository.com/
+[osm]: https://www.openstreetmap.org/export
